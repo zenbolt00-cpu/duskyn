@@ -38,7 +38,7 @@ export function Hero() {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
-          className="text-6xl md:text-8xl lg:text-9xl font-bold tracking-tighter text-slate-900 mb-6"
+          className="text-6xl md:text-8xl lg:text-9xl font-bold tracking-tighter text-slate-900 mb-6 hidden md:block"
         >
           DUSKYN
         </motion.h1>
